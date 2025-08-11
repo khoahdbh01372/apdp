@@ -1,0 +1,20 @@
+# === Build outputs ===
+# Ignore all bin/ and obj/ folders anywhere
+**/bin/
+**/obj/
+
+# === Visual Studio ===
+.vs/                           # IIS Express & VS config
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.csproj.user
+
+# === Rider ===
+.idea/
+
+# === Misc ===
+*.db                           # local SQLite or ASP.NET DB files
+/.vs/SIMS
+/.vs/ProjectEvaluation
